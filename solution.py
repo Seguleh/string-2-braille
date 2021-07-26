@@ -37,7 +37,7 @@ for x in s:
 	if resultL:
 		br += resultL
 		continue
-  y = x.lower()
+	y = x.lower()
 	resultM = stob.get(y) if y in stob.keys() else ""
 	if resultM:
 		br += "000001" + resultM
